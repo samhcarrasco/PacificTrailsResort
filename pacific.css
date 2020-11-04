@@ -7,31 +7,37 @@ body {
 
 header {
     background-color: #002171 ;
+    
     color: #FFFFFF;
-   
     height: 120px;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 15px;
+    
     padding-left: 3em;
+    text-decoration: none;
 
 
 
 }
+
+
 footer{
 font-size: 75%;
 font-family: Georgia;
 font-style: italic;
-text-align: center;
+text-align: left;
 padding: 2em;
 margin-left: 190px;
 background-color: #FFFFFF;
+margin-bottom: 0px;
+
 }
 
 nav  {
 
     
     font-weight: bold;
-    padding: 1.5em;
+    padding: 1.5m;
     float: left;
     width: 160px;
     font-size: 120%;
@@ -58,7 +64,14 @@ h1{
     font-size: 3em;
     letter-spacing: .25em;
     padding-left: 150px;
+    text-decoration: none;
 }
+
+h1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 h2 {
     color: #1976D2;
     font-family: Georgia;
@@ -91,20 +104,24 @@ main ul{
 }
 
 #wrapper { background-color: #90C7E3;
-    padding: 2em;
+    padding: .1em;
     margin-left: auto; margin-right: auto;
     width: 80%;
-    min-width: 800px; 
+    min-width: 960px; 
+    max-width: 2048px;
+    offset: 3px;
+    box-shadow: #333333;
     border: 1px solid #000033;
     background-image: linear-gradient(#FFFFFF, #90C7E3);
+    
 }
 
 
 main{
-padding-top: 1px;
+padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
-padding-left: 30px ;
+padding-left: 20px ;
 display: block;
 box-shadow: 1px 1px 1px #CCCCCC;
 background-color: #FFFFFF;
@@ -146,18 +163,24 @@ section {
     
 }
 
-a:link {
 
+
+    
+    
+    
+
+nav a:link {
+text-decoration: none;
 color: #5c7fa3;
 
 }
 
-a:visited{
+nav a:visited{
     color: #344873;
 
 }
 
-a:hover{
+ nav a:hover{
 
     color: #A52A2A;
 }
